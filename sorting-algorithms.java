@@ -2,11 +2,7 @@ package area;
 import java.util.*;
 public class Area{
     public static void main(String[] args){
-        Random rn = new Random();
-        int[] n = {rn.nextInt(100), rn.nextInt(100), rn.nextInt(100), rn.nextInt(100), rn.nextInt(100), rn.nextInt(100), rn.nextInt(100)};
-        System.out.println(Arrays.toString(n));
-        System.out.println(Arrays.toString(bubbleSort(n)));
-        System.out.println(Arrays.toString(selectionSort(n)));
+        //Sorting methods are below
     }
     public static int[] bubbleSort(int[] nums) {
         int hold;
